@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-array
+ */
+export * from './lib/ngx-array.service';
+export * from './lib/ngx-array.component';
+export * from './lib/ngx-array.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1hcnJheS9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMseUJBQXlCLENBQUM7QUFDeEMsY0FBYywyQkFBMkIsQ0FBQztBQUMxQyxjQUFjLHdCQUF3QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtYXJyYXlcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtYXJyYXkuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtYXJyYXkuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1hcnJheS5tb2R1bGUnO1xuIl19

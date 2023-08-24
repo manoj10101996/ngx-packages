@@ -1,0 +1,48 @@
+{
+  "name": "ngx-alert-message",
+  "version": "3.0.5",
+  "author": {
+    "name": "Manojkumar Muthukumar",
+    "email": "manoj1010196@gmail.com"
+  },
+  "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "homepage": "https://www.beforepost.com/package/ngx/ngx-alert-message",
+  "icon": "https://icon.beforepost.com/5IQN2B2I-Z8A260K8-CLI06PQ9.svg",
+  "keywords": [
+    "angular",
+    "ngx",
+    "ng9",
+    "star",
+    "rating",
+    "ngx-alert-message",
+    "manoj10101996",
+    "uiconfig"
+  ],
+  "sideEffects": false,
+  "module": "fesm2015/ngx-alert-message.mjs",
+  "es2020": "fesm2020/ngx-alert-message.mjs",
+  "esm2020": "esm2020/ngx-alert-message.mjs",
+  "fesm2020": "fesm2020/ngx-alert-message.mjs",
+  "fesm2015": "fesm2015/ngx-alert-message.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-alert-message.mjs",
+      "es2020": "./fesm2020/ngx-alert-message.mjs",
+      "es2015": "./fesm2015/ngx-alert-message.mjs",
+      "node": "./fesm2015/ngx-alert-message.mjs",
+      "default": "./fesm2020/ngx-alert-message.mjs"
+    }
+  }
+}

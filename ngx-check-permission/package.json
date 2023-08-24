@@ -1,0 +1,92 @@
+{
+  "name": "ngx-check-permission",
+  "version": "3.0.3",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "author": {
+    "name": "Manojkumar Muthukumar",
+    "email": "manoj1010196@gmail.com"
+  },
+  "homepage": "https://www.beforepost.com/package/ngx/ngx-check-permission",
+  "description": "Angular library which checks the permission status and returns the permission status for the following api's .push, midi, camera, microphone, speaker, device-info, background-fetch, background-sync, bluetooth, persistent-storage, ambient-light-sensor, accelerometer, gyroscope, magnetometer, clipboard, display-capture, nfc",
+  "icon": "https://icon.beforepost.com/W3EL2XBA-LM79Z0DG-4Y17OWY8.svg",
+  "keywords": [
+    "angular",
+    "ngx",
+    "device",
+    "info",
+    "location",
+    "device-name",
+    "mobile",
+    "tablet",
+    "desktop",
+    "oriantation",
+    "hash",
+    "href",
+    "port",
+    "node",
+    "service",
+    "date",
+    "utc",
+    "date",
+    "day",
+    "month",
+    "online",
+    "offline",
+    "permissions",
+    "height",
+    "width",
+    "clientWidth",
+    "clientHeight",
+    "geolocation",
+    "notifications",
+    "push",
+    "midi",
+    "camera",
+    "microphone",
+    "speaker",
+    "device-info",
+    "background-fetch",
+    "background-sync",
+    "bluetooth",
+    "persistent-storage",
+    "ambient-light-sensor",
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "clipboard",
+    "display-capture",
+    "nfc",
+    "uiconfig",
+    "manoj10101996",
+    "ngx-check-permission",
+    "permission",
+    "state"
+  ],
+  "license": "MIT",
+  "module": "fesm2015/ngx-check-permission.mjs",
+  "es2020": "fesm2020/ngx-check-permission.mjs",
+  "esm2020": "esm2020/ngx-check-permission.mjs",
+  "fesm2020": "fesm2020/ngx-check-permission.mjs",
+  "fesm2015": "fesm2015/ngx-check-permission.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-check-permission.mjs",
+      "es2020": "./fesm2020/ngx-check-permission.mjs",
+      "es2015": "./fesm2015/ngx-check-permission.mjs",
+      "node": "./fesm2015/ngx-check-permission.mjs",
+      "default": "./fesm2020/ngx-check-permission.mjs"
+    }
+  }
+}

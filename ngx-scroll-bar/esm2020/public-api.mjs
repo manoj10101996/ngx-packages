@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-scroll-bar
+ */
+export * from './lib/ngx-scroll-bar.service';
+export * from './lib/ngx-scroll-bar.component';
+export * from './lib/ngx-scroll-bar.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1zY3JvbGwtYmFyL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyw4QkFBOEIsQ0FBQztBQUM3QyxjQUFjLGdDQUFnQyxDQUFDO0FBQy9DLGNBQWMsNkJBQTZCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1zY3JvbGwtYmFyXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNjcm9sbC1iYXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtc2Nyb2xsLWJhci5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNjcm9sbC1iYXIubW9kdWxlJztcbiJdfQ==

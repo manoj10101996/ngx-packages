@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ng-slim-scrollbar
+ */
+export * from './lib/ng-slim-scrollbar.service';
+export * from './lib/ng-slim-scrollbar.component';
+export * from './lib/ng-slim-scrollbar.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25nLXNsaW0tc2Nyb2xsYmFyL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxpQ0FBaUMsQ0FBQztBQUNoRCxjQUFjLG1DQUFtQyxDQUFDO0FBQ2xELGNBQWMsZ0NBQWdDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5nLXNsaW0tc2Nyb2xsYmFyXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmctc2xpbS1zY3JvbGxiYXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZy1zbGltLXNjcm9sbGJhci5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmctc2xpbS1zY3JvbGxiYXIubW9kdWxlJztcbiJdfQ==
