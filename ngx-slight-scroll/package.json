@@ -1,6 +1,6 @@
 {
   "name": "ngx-slight-scroll",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
@@ -18,7 +18,7 @@
   "icon": "https://icon.beforepost.com/2KRP6DWE-F005AU3Y-1SKBC1EC.svg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manoj10101996/ngx.git"
+    "url": "https://github.com/manoj10101996/ngx-packages.git"
   },
   "keywords": [
     "angular",
