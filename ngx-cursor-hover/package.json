@@ -1,0 +1,56 @@
+{
+  "name": "ngx-cursor-hover",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "author": {
+    "name": "Manojkumar Muthukumar",
+    "email": "manoj1010196@gmail.com"
+  },
+  "icon": "https://raw.githubusercontent.com/manoj10101996/resources/5d05c67fd08ed980e80f3c95363caf5fbdd75a7f/ngx-cursor-hover.svg",
+  "description": "The CSS cursor property specifies the mouse cursor to be displayed when pointing over an element. It can be used to change the cursor to a variety of different shapes, such as a hand, a crosshair, or an arrow.",
+  "sideEffects": false,
+  "homepage": "https://www.beforepost.com/package/ngx/ngx-cursor-hover",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manoj10101996/ngx-packages.git"
+  },
+  "keywords": [
+    "angular",
+    "ngx",
+    "ng",
+    "cursor",
+    "ngx-cursor-hover",
+    "manoj1010196",
+    "uiconfig",
+    "cursor-hover",
+    "hover",
+    "pointer",
+    "npm"
+  ],
+  "license": "MIT",
+  "module": "fesm2015/ngx-cursor-hover.mjs",
+  "es2020": "fesm2020/ngx-cursor-hover.mjs",
+  "esm2020": "esm2020/ngx-cursor-hover.mjs",
+  "fesm2020": "fesm2020/ngx-cursor-hover.mjs",
+  "fesm2015": "fesm2015/ngx-cursor-hover.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-cursor-hover.mjs",
+      "es2020": "./fesm2020/ngx-cursor-hover.mjs",
+      "es2015": "./fesm2015/ngx-cursor-hover.mjs",
+      "node": "./fesm2015/ngx-cursor-hover.mjs",
+      "default": "./fesm2020/ngx-cursor-hover.mjs"
+    }
+  }
+}

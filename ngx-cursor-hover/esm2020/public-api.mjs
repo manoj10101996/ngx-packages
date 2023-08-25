@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ngx-cursor-hover
+ */
+export * from './lib/ngx-cursor-hover.module';
+export * from './lib/ngx-cursor-hover.directive';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1jdXJzb3ItaG92ZXIvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLCtCQUErQixDQUFDO0FBQzlDLGNBQWMsa0NBQWtDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1jdXJzb3ItaG92ZXJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtY3Vyc29yLWhvdmVyLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtY3Vyc29yLWhvdmVyLmRpcmVjdGl2ZSc7XG4iXX0=
