@@ -4,6 +4,7 @@ export declare class NgxColorPaletteComponent implements AfterViewInit {
     private elementRef;
     color: string;
     squared: boolean;
+    position: string;
     currentColor: EventEmitter<any>;
     mode: string;
     protected colors: {
@@ -333,5 +334,5 @@ export declare class NgxColorPaletteComponent implements AfterViewInit {
     showColorWheel(): void;
     randomColor(): string;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxColorPaletteComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgxColorPaletteComponent, "ngx-color-palette", never, { "color": "color"; "squared": "squared"; }, { "currentColor": "currentColor"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxColorPaletteComponent, "ngx-color-palette", never, { "color": "color"; "squared": "squared"; "position": "position"; }, { "currentColor": "currentColor"; }, never, never, false, never>;
 }
