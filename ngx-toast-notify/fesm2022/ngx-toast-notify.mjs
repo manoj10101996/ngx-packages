@@ -172,27 +172,27 @@ class NgxToastNotifyService {
             this.renderer.setStyle(alertContainer, 'margin', '1.5rem');
         }
     }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyService, deps: [{ token: i0.RendererFactory2 }, { token: i1.AnimationBuilder }, { token: ngxToastNotifyConfig, optional: true }], target: i0.ɵɵFactoryTarget.Injectable }); }
+    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyService, providedIn: 'root' }); }
 }
-NgxToastNotifyService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyService, deps: [{ token: i0.RendererFactory2 }, { token: i1.AnimationBuilder }, { token: ngxToastNotifyConfig, optional: true }], target: i0.ɵɵFactoryTarget.Injectable });
-NgxToastNotifyService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyService, providedIn: 'root' });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyService, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyService, decorators: [{
             type: Injectable,
             args: [{
                     providedIn: 'root',
                 }]
-        }], ctorParameters: function () { return [{ type: i0.RendererFactory2 }, { type: i1.AnimationBuilder }, { type: ngxToastNotifyConfig, decorators: [{
+        }], ctorParameters: () => [{ type: i0.RendererFactory2 }, { type: i1.AnimationBuilder }, { type: ngxToastNotifyConfig, decorators: [{
                     type: Optional
-                }] }]; } });
+                }] }] });
 
 class NgxToastNotifyComponent {
-}
-NgxToastNotifyComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
-NgxToastNotifyComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.9", type: NgxToastNotifyComponent, selector: "lib-ngx-toast-notify", ngImport: i0, template: `
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.8", type: NgxToastNotifyComponent, selector: "lib-ngx-toast-notify", ngImport: i0, template: `
     <p>
       ngx-toast-notify works!
     </p>
-  `, isInline: true });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyComponent, decorators: [{
+  `, isInline: true }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyComponent, decorators: [{
             type: Component,
             args: [{ selector: 'lib-ngx-toast-notify', template: `
     <p>
@@ -213,22 +213,22 @@ class NgxToastNotifyModule {
             providers: [{ provide: ngxToastNotifyConfig, useValue: config }],
         };
     }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyModule, deps: [{ token: NgxToastNotifyModule, optional: true, skipSelf: true }], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyModule, imports: [BrowserAnimationsModule] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyModule, imports: [BrowserAnimationsModule] }); }
 }
-NgxToastNotifyModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyModule, deps: [{ token: NgxToastNotifyModule, optional: true, skipSelf: true }], target: i0.ɵɵFactoryTarget.NgModule });
-NgxToastNotifyModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyModule, imports: [BrowserAnimationsModule] });
-NgxToastNotifyModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyModule, imports: [BrowserAnimationsModule] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.9", ngImport: i0, type: NgxToastNotifyModule, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxToastNotifyModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [],
                     imports: [BrowserAnimationsModule],
                     exports: [],
                 }]
-        }], ctorParameters: function () { return [{ type: NgxToastNotifyModule, decorators: [{
+        }], ctorParameters: () => [{ type: NgxToastNotifyModule, decorators: [{
                     type: Optional
                 }, {
                     type: SkipSelf
-                }] }]; } });
+                }] }] });
 
 /*
  * Public API Surface of ngx-toast-notify
