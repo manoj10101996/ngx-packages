@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ngx-tags-input-box
+ */
+export * from './lib/ngx-tags-input-box.service';
+export * from './lib/ngx-tags/ngx-tags.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC10YWdzLWlucHV0LWJveC9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsa0NBQWtDLENBQUM7QUFDakQsY0FBYyxtQ0FBbUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXRhZ3MtaW5wdXQtYm94XG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXRhZ3MtaW5wdXQtYm94LnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXRhZ3Mvbmd4LXRhZ3MuY29tcG9uZW50JztcblxuIl19
