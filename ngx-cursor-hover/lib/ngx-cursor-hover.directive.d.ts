@@ -7,5 +7,5 @@ export declare class NgxCursorHoverDirective implements AfterViewInit {
     constructor(el: ElementRef);
     ngAfterViewInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxCursorHoverDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxCursorHoverDirective, "[ngxCursor]", never, { "cursor": "cursor"; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxCursorHoverDirective, "[ngxCursor]", never, { "cursor": { "alias": "cursor"; "required": false; }; }, {}, never, never, true, never>;
 }

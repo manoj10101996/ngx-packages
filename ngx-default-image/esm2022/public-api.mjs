@@ -1,0 +1,8 @@
+/*
+ * Public API Surface of ngx-default-image
+ */
+export * from './lib/ngx-default-image.service';
+export * from './lib/ngx-default-image.component';
+export * from './lib/ngx-default-image.directive';
+export * from './lib/META';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1kZWZhdWx0LWltYWdlL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxpQ0FBaUMsQ0FBQztBQUNoRCxjQUFjLG1DQUFtQyxDQUFDO0FBRWxELGNBQWMsbUNBQW1DLENBQUM7QUFDbEQsY0FBYyxZQUFZLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1kZWZhdWx0LWltYWdlXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LWRlZmF1bHQtaW1hZ2Uuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtZGVmYXVsdC1pbWFnZS5jb21wb25lbnQnO1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtZGVmYXVsdC1pbWFnZS5kaXJlY3RpdmUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvTUVUQSc7XG4iXX0=

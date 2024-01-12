@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of ngx-device-info
+ */
+export * from './lib/ngx-device-info.service';
+export * from './lib/ngx-device-info.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1kZXZpY2UtaW5mby9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsK0JBQStCLENBQUM7QUFDOUMsY0FBYyxpQ0FBaUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LWRldmljZS1pbmZvXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LWRldmljZS1pbmZvLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LWRldmljZS1pbmZvLmNvbXBvbmVudCc7XG5cbiJdfQ==

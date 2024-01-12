@@ -8,7 +8,7 @@ export declare class NgxDeviceInfoService {
     isMobile(): boolean;
     isTablet(): boolean;
     isDesktop(): boolean;
-    getOrientation(): "" | "landscape" | "portrait";
+    getOrientation(): "" | "portrait" | "landscape";
     getAllPermissions: () => Promise<any>;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxDeviceInfoService, never>;
     static ɵprov: i0.ɵɵInjectableDeclaration<NgxDeviceInfoService>;

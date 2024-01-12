@@ -11,5 +11,5 @@ export declare class NgxDefaultImageDirective {
     getImageMeta(event: any, isValidImage: boolean): void;
     calculateAspectRatio(width: number, height: number): number;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxDefaultImageDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxDefaultImageDirective, "[NgxDefaultImage]", never, { "imageURL": "imageURL"; }, { "imageMetaInfo": "imageMetaInfo"; }, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxDefaultImageDirective, "[NgxDefaultImage]", never, { "imageURL": { "alias": "imageURL"; "required": false; }; }, { "imageMetaInfo": "imageMetaInfo"; }, never, never, true, never>;
 }

@@ -1,20 +1,11 @@
 import { AnimationBuilder } from '@angular/animations';
 import { RendererFactory2 } from '@angular/core';
 import * as i0 from "@angular/core";
-export declare class ngxToastNotifyConfig {
-    toastTimeoutInSeconds?: number;
-    animationDelayInMilliSeconds?: number;
-    enableClosebutton?: boolean;
-    position?: string;
-    backgroundColor?: string;
-    textColor?: string;
-}
 export declare class NgxToastNotifyService {
     rendererFactory: RendererFactory2;
     private animationBuilder;
     private renderer;
-    private toastConfig;
-    constructor(rendererFactory: RendererFactory2, animationBuilder: AnimationBuilder, config?: ngxToastNotifyConfig);
+    constructor(rendererFactory: RendererFactory2, animationBuilder: AnimationBuilder);
     /**
      * showToast: Creates toast notification.
      * @param text: Toast text to be shown. - String
@@ -24,6 +15,6 @@ export declare class NgxToastNotifyService {
     showToast(text: string, mode: string, position: string): void;
     private getTheme;
     private setPosition;
-    static ɵfac: i0.ɵɵFactoryDeclaration<NgxToastNotifyService, [null, null, { optional: true; }]>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<NgxToastNotifyService, never>;
     static ɵprov: i0.ɵɵInjectableDeclaration<NgxToastNotifyService>;
 }

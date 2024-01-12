@@ -1,8 +1,0 @@
-/*
- * Public API Surface of ngx-resize-element
- */
-export * from './lib/ngx-resize-element.service';
-export * from './lib/ngx-resize-element.component';
-export * from './lib/ngx-resize-element.module';
-export * from './lib/ngx-resize-element.directive';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1yZXNpemUtZWxlbWVudC9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsa0NBQWtDLENBQUM7QUFDakQsY0FBYyxvQ0FBb0MsQ0FBQztBQUNuRCxjQUFjLGlDQUFpQyxDQUFDO0FBQ2hELGNBQWMsb0NBQW9DLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1yZXNpemUtZWxlbWVudFxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1yZXNpemUtZWxlbWVudC5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1yZXNpemUtZWxlbWVudC5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXJlc2l6ZS1lbGVtZW50Lm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtcmVzaXplLWVsZW1lbnQuZGlyZWN0aXZlJztcbiJdfQ==

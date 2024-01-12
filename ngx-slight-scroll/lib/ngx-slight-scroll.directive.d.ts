@@ -14,5 +14,5 @@ export declare class NgxSlightScrollDirective implements AfterViewInit {
     constructor(el: ElementRef);
     ngAfterViewInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxSlightScrollDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxSlightScrollDirective, "[ngxSlimScroll]", never, { "maxHeight": "maxHeight"; "minHeight": "minHeight"; "scrollBg": "scrollBg"; "scrollThumbBg": "scrollThumbBg"; "scrollThumbRadius": "scrollThumbRadius"; "scrollWidth": "scrollWidth"; "scrollBorder": "scrollBorder"; }, { "scrollEndEvent": "scrollEndEvent"; }, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxSlightScrollDirective, "[ngxSlimScroll]", never, { "maxHeight": { "alias": "maxHeight"; "required": false; }; "minHeight": { "alias": "minHeight"; "required": false; }; "scrollBg": { "alias": "scrollBg"; "required": false; }; "scrollThumbBg": { "alias": "scrollThumbBg"; "required": false; }; "scrollThumbRadius": { "alias": "scrollThumbRadius"; "required": false; }; "scrollWidth": { "alias": "scrollWidth"; "required": false; }; "scrollBorder": { "alias": "scrollBorder"; "required": false; }; }, { "scrollEndEvent": "scrollEndEvent"; }, never, never, true, never>;
 }

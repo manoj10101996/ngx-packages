@@ -5,7 +5,7 @@
     "email": "manoj1010196@gmail.com"
   },
   "description": "A Web console is a tool which is mainly used to log information associated with a web page like: network requests, JavaScript, security errors, warnings, CSS etc. It enables us to interact with a web page by executing JavaScript expression in the contents of the page.",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
@@ -36,11 +36,7 @@
   ],
   "license": "MIT",
   "sideEffects": false,
-  "module": "fesm2015/ngx-logs.mjs",
-  "es2020": "fesm2020/ngx-logs.mjs",
-  "esm2020": "esm2020/ngx-logs.mjs",
-  "fesm2020": "fesm2020/ngx-logs.mjs",
-  "fesm2015": "fesm2015/ngx-logs.mjs",
+  "module": "fesm2022/ngx-logs.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -48,11 +44,9 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/ngx-logs.mjs",
-      "es2020": "./fesm2020/ngx-logs.mjs",
-      "es2015": "./fesm2015/ngx-logs.mjs",
-      "node": "./fesm2015/ngx-logs.mjs",
-      "default": "./fesm2020/ngx-logs.mjs"
+      "esm2022": "./esm2022/ngx-logs.mjs",
+      "esm": "./esm2022/ngx-logs.mjs",
+      "default": "./fesm2022/ngx-logs.mjs"
     }
   }
 }

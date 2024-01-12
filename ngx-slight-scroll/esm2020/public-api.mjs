@@ -1,7 +1,0 @@
-/*
- * Public API Surface of ngx-slight-scroll
- */
-export * from './lib/ngx-slight-scroll.service';
-export * from './lib/ngx-slight-scroll.directive';
-export * from './lib/ngx-slight-scroll.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1zbGlnaHQtc2Nyb2xsL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxpQ0FBaUMsQ0FBQztBQUNoRCxjQUFjLG1DQUFtQyxDQUFDO0FBQ2xELGNBQWMsZ0NBQWdDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1zbGlnaHQtc2Nyb2xsXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNsaWdodC1zY3JvbGwuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtc2xpZ2h0LXNjcm9sbC5kaXJlY3RpdmUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNsaWdodC1zY3JvbGwubW9kdWxlJztcbiJdfQ==

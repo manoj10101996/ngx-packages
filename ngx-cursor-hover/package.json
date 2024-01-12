@@ -1,9 +1,9 @@
 {
   "name": "ngx-cursor-hover",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
-    "@angular/common": "^15.2.0",
-    "@angular/core": "^15.2.0"
+    "@angular/common": "^17.0.9",
+    "@angular/core": "^17.0.9"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -34,11 +34,7 @@
     "npm"
   ],
   "license": "MIT",
-  "module": "fesm2015/ngx-cursor-hover.mjs",
-  "es2020": "fesm2020/ngx-cursor-hover.mjs",
-  "esm2020": "esm2020/ngx-cursor-hover.mjs",
-  "fesm2020": "fesm2020/ngx-cursor-hover.mjs",
-  "fesm2015": "fesm2015/ngx-cursor-hover.mjs",
+  "module": "fesm2022/ngx-cursor-hover.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -46,11 +42,9 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/ngx-cursor-hover.mjs",
-      "es2020": "./fesm2020/ngx-cursor-hover.mjs",
-      "es2015": "./fesm2015/ngx-cursor-hover.mjs",
-      "node": "./fesm2015/ngx-cursor-hover.mjs",
-      "default": "./fesm2020/ngx-cursor-hover.mjs"
+      "esm2022": "./esm2022/ngx-cursor-hover.mjs",
+      "esm": "./esm2022/ngx-cursor-hover.mjs",
+      "default": "./fesm2022/ngx-cursor-hover.mjs"
     }
   }
 }

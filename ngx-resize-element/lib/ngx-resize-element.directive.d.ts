@@ -5,5 +5,5 @@ export declare class NgxResizeElementDirective {
     element: HTMLElement;
     constructor(el: ElementRef);
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxResizeElementDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxResizeElementDirective, "[ngxResize]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<NgxResizeElementDirective, "[ngxResize]", never, {}, {}, never, never, true, never>;
 }

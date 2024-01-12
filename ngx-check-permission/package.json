@@ -1,9 +1,9 @@
 {
   "name": "ngx-check-permission",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "peerDependencies": {
-    "@angular/common": "^15.2.0",
-    "@angular/core": "^15.2.0"
+    "@angular/common": "^17.0.9",
+    "@angular/core": "^17.0.9"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -74,11 +74,7 @@
     "state"
   ],
   "license": "MIT",
-  "module": "fesm2015/ngx-check-permission.mjs",
-  "es2020": "fesm2020/ngx-check-permission.mjs",
-  "esm2020": "esm2020/ngx-check-permission.mjs",
-  "fesm2020": "fesm2020/ngx-check-permission.mjs",
-  "fesm2015": "fesm2015/ngx-check-permission.mjs",
+  "module": "fesm2022/ngx-check-permission.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -86,11 +82,9 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/ngx-check-permission.mjs",
-      "es2020": "./fesm2020/ngx-check-permission.mjs",
-      "es2015": "./fesm2015/ngx-check-permission.mjs",
-      "node": "./fesm2015/ngx-check-permission.mjs",
-      "default": "./fesm2020/ngx-check-permission.mjs"
+      "esm2022": "./esm2022/ngx-check-permission.mjs",
+      "esm": "./esm2022/ngx-check-permission.mjs",
+      "default": "./fesm2022/ngx-check-permission.mjs"
     }
   }
 }

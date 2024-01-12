@@ -334,5 +334,5 @@ export declare class NgxColorPaletteComponent implements AfterViewInit {
     showColorWheel(): void;
     randomColor(): string;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxColorPaletteComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgxColorPaletteComponent, "ngx-color-palette", never, { "color": "color"; "squared": "squared"; "position": "position"; }, { "currentColor": "currentColor"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxColorPaletteComponent, "ngx-color-palette", never, { "color": { "alias": "color"; "required": false; }; "squared": { "alias": "squared"; "required": false; }; "position": { "alias": "position"; "required": false; }; }, { "currentColor": "currentColor"; }, never, never, true, never>;
 }
