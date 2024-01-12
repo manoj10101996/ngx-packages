@@ -5,5 +5,5 @@ export declare class LowercaseDirective {
     private renderer;
     constructor(el: ElementRef, renderer: Renderer2);
     static ɵfac: i0.ɵɵFactoryDeclaration<LowercaseDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<LowercaseDirective, "[ngxLowerCase]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<LowercaseDirective, "[ngxLowerCase]", never, {}, {}, never, never, true, never>;
 }

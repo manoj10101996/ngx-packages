@@ -5,5 +5,5 @@ export declare class InitialcaseDirective {
     private renderer;
     constructor(el: ElementRef, renderer: Renderer2);
     static ɵfac: i0.ɵɵFactoryDeclaration<InitialcaseDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<InitialcaseDirective, "[ngxInitialCase]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<InitialcaseDirective, "[ngxInitialCase]", never, {}, {}, never, never, true, never>;
 }

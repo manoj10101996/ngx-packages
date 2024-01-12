@@ -5,5 +5,5 @@ export declare class UppercaseDirective {
     private renderer;
     constructor(el: ElementRef, renderer: Renderer2);
     static ɵfac: i0.ɵɵFactoryDeclaration<UppercaseDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<UppercaseDirective, "[ngxUpperCase]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<UppercaseDirective, "[ngxUpperCase]", never, {}, {}, never, never, true, never>;
 }

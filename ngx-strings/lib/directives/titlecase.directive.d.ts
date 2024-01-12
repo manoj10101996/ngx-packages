@@ -5,5 +5,5 @@ export declare class TitlecaseDirective {
     private renderer;
     constructor(el: ElementRef, renderer: Renderer2);
     static ɵfac: i0.ɵɵFactoryDeclaration<TitlecaseDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<TitlecaseDirective, "[ngxTitleCase]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<TitlecaseDirective, "[ngxTitleCase]", never, {}, {}, never, never, true, never>;
 }

@@ -7,5 +7,5 @@ export declare class LinelimitDirective implements OnInit {
     constructor(el: ElementRef, renderer: Renderer2);
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<LinelimitDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<LinelimitDirective, "[ngxLineLimit]", never, { "lines": "lines"; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<LinelimitDirective, "[ngxLineLimit]", never, { "lines": { "alias": "lines"; "required": false; }; }, {}, never, never, true, never>;
 }
