@@ -3,10 +3,10 @@ import { Injectable, Component, Input } from '@angular/core';
 
 class NgxAlertMessageService {
     constructor() { }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxAlertMessageService, deps: [], target: i0.ɵɵFactoryTarget.Injectable }); }
-    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxAlertMessageService, providedIn: 'root' }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxAlertMessageService, deps: [], target: i0.ɵɵFactoryTarget.Injectable }); }
+    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxAlertMessageService, providedIn: 'root' }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxAlertMessageService, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxAlertMessageService, decorators: [{
             type: Injectable,
             args: [{
                     providedIn: 'root'
@@ -14,14 +14,14 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImpor
         }], ctorParameters: () => [] });
 
 class NgxAlertMessageComponent {
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxAlertMessageComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.8", type: NgxAlertMessageComponent, isStandalone: true, selector: "lib-ngx-alert-message", ngImport: i0, template: `
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxAlertMessageComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.3.5", type: NgxAlertMessageComponent, isStandalone: true, selector: "lib-ngx-alert-message", ngImport: i0, template: `
     <p>
       ngx-alert-message works!
     </p>
   `, isInline: true }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxAlertMessageComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxAlertMessageComponent, decorators: [{
             type: Component,
             args: [{ selector: 'lib-ngx-alert-message', template: `
     <p>
@@ -31,6 +31,13 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImpor
         }] });
 
 class AlertComponent {
+    constructor() {
+        this.mode = "success";
+        this.close = true;
+        this.bold = false;
+        this.text = "ngx-alert-message";
+        this.disabled = false;
+    }
     ngOnInit() {
         if (this.mode === 'success') {
             this.color = 'green';
@@ -50,15 +57,15 @@ class AlertComponent {
         else {
             this.color = 'white';
             this.textColor = 'black';
-            this.bold = 'true';
+            this.bold = true;
         }
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: AlertComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.8", type: AlertComponent, isStandalone: true, selector: "ngx-alert", inputs: { mode: "mode", close: "close", bold: "bold", text: "text", disabled: "disabled" }, ngImport: i0, template: "<div class=\"alert-bar-ngx\" [style.backgroundColor]=\"color\" [style.color]=\"textColor\"\n  [style.fontWeight]=\"bold === 'true' ? 'bold' : '100'\" [style.opacity]=\"disabled === 'true' ? '0.75' : '1'\"\n  [style.cursor]=\"disabled === 'true' ? 'not-allowed' : 'pointer'\">\n  <span class=\"closeIcon\" [hidden]=\"close === 'false'\">\n    &#215;\n  </span>\n  {{ text }}\n</div>", styles: [".alert-bar-ngx{margin:.625rem 0rem;padding:.6125rem .8125rem;color:#fff;box-shadow:0 0 5px 5px #f5f5f5}.closeIcon{float:right;cursor:pointer}.just-close{width:5%;font-weight:bolder;background-color:#dc143c;color:#fff;border-radius:0 5px 5px 0;padding:5px;display:flex;align-items:center;text-align:center}.just-content{width:95%;padding:5px;font-weight:bolder}.just-container{display:flex;border-radius:1;border:1px solid crimson;border-radius:9px}\n"] }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: AlertComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.3.5", type: AlertComponent, isStandalone: true, selector: "ngx-alert", inputs: { mode: "mode", close: "close", bold: "bold", text: "text", disabled: "disabled" }, ngImport: i0, template: "<div class=\"ngx-alert-container ngx-alert-container-extended\" [style.backgroundColor]=\"color\" [style.color]=\"textColor\"\n  [style.fontWeight]=\"bold  ? 'bold' : '500'\" [style.opacity]=\"disabled ? '0.75' : '1'\"\n  [style.cursor]=\"disabled  ? 'not-allowed' : 'pointer'\">\n  <div class=\"ngx-alert-text\">\n    {{ text }}\n  </div>\n  <span class=\"ngx-alert-close\" [hidden]=\"!close\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 384 512\">\n      <path fill=\"white\"\n        d=\"M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z\" />\n    </svg>\n  </span>\n</div>\n", styles: [".ngx-alert-container{display:grid;align-items:center;grid-template-columns:auto 56px;margin-bottom:.5rem}.ngx-alert-container .ngx-alert-text{font-weight:500;font-size:1rem;padding:1rem 1.25rem}.ngx-alert-container .ngx-alert-close{width:56px;height:100%;display:flex;align-items:center;justify-content:center}.ngx-alert-container-extended .ngx-alert-text{color:#fff}\n"] }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: AlertComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: AlertComponent, decorators: [{
             type: Component,
-            args: [{ selector: 'ngx-alert', standalone: true, template: "<div class=\"alert-bar-ngx\" [style.backgroundColor]=\"color\" [style.color]=\"textColor\"\n  [style.fontWeight]=\"bold === 'true' ? 'bold' : '100'\" [style.opacity]=\"disabled === 'true' ? '0.75' : '1'\"\n  [style.cursor]=\"disabled === 'true' ? 'not-allowed' : 'pointer'\">\n  <span class=\"closeIcon\" [hidden]=\"close === 'false'\">\n    &#215;\n  </span>\n  {{ text }}\n</div>", styles: [".alert-bar-ngx{margin:.625rem 0rem;padding:.6125rem .8125rem;color:#fff;box-shadow:0 0 5px 5px #f5f5f5}.closeIcon{float:right;cursor:pointer}.just-close{width:5%;font-weight:bolder;background-color:#dc143c;color:#fff;border-radius:0 5px 5px 0;padding:5px;display:flex;align-items:center;text-align:center}.just-content{width:95%;padding:5px;font-weight:bolder}.just-container{display:flex;border-radius:1;border:1px solid crimson;border-radius:9px}\n"] }]
+            args: [{ selector: 'ngx-alert', standalone: true, template: "<div class=\"ngx-alert-container ngx-alert-container-extended\" [style.backgroundColor]=\"color\" [style.color]=\"textColor\"\n  [style.fontWeight]=\"bold  ? 'bold' : '500'\" [style.opacity]=\"disabled ? '0.75' : '1'\"\n  [style.cursor]=\"disabled  ? 'not-allowed' : 'pointer'\">\n  <div class=\"ngx-alert-text\">\n    {{ text }}\n  </div>\n  <span class=\"ngx-alert-close\" [hidden]=\"!close\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 384 512\">\n      <path fill=\"white\"\n        d=\"M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z\" />\n    </svg>\n  </span>\n</div>\n", styles: [".ngx-alert-container{display:grid;align-items:center;grid-template-columns:auto 56px;margin-bottom:.5rem}.ngx-alert-container .ngx-alert-text{font-weight:500;font-size:1rem;padding:1rem 1.25rem}.ngx-alert-container .ngx-alert-close{width:56px;height:100%;display:flex;align-items:center;justify-content:center}.ngx-alert-container-extended .ngx-alert-text{color:#fff}\n"] }]
         }], propDecorators: { mode: [{
                 type: Input
             }], close: [{
@@ -72,6 +79,13 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImpor
             }] } });
 
 class JustAlertComponent {
+    constructor() {
+        this.mode = "success";
+        this.close = true;
+        this.bold = false;
+        this.text = "ngx-just-alert-message";
+        this.disabled = false;
+    }
     ngOnInit() {
         if (this.mode === 'success') {
             this.color = 'green';
@@ -91,15 +105,16 @@ class JustAlertComponent {
         else {
             this.color = 'white';
             this.textColor = 'black';
-            this.bold = 'true';
+            this.bold = true;
         }
+        console.log(this.mode, this.color);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: JustAlertComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.8", type: JustAlertComponent, isStandalone: true, selector: "ngx-just-alert", inputs: { mode: "mode", close: "close", bold: "bold", text: "text", disabled: "disabled" }, ngImport: i0, template: "<div class=\"just-container\" [style.border]=\"'1px solid ' + mode\" [style.color]=\"mode\"\n  [style.fontWeight]=\"bold === 'true' ? 'bold' : '100'\" [style.opacity]=\"disabled === 'true' ? '0.75' : '1'\"\n  [style.cursor]=\"disabled === 'true' ? 'not-allowed' : 'pointer'\">\n  <div class=\"just-content\">\n    {{ text }}\n  </div>\n  <div class=\"just-close\" [style.backgroundColor]=\"mode\" [style.color]=\"'white'\">\n    <span>&#215;</span>\n  </div>\n</div>", styles: [".just-close{width:6%;font-weight:bolder;text-align:center;background-color:#dc143c;color:#fff;border-radius:0;padding:0;display:grid;align-items:center}.just-content{width:95%;padding:.6125rem .8125rem;color:#000;font-weight:bolder}.just-container{display:flex;border-radius:1;border:1px solid crimson;margin:.625rem 0rem;color:#fff;font-weight:400;box-shadow:0 0 5px 5px #f5f5f5}\n"] }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: JustAlertComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.3.5", type: JustAlertComponent, isStandalone: true, selector: "ngx-just-alert", inputs: { mode: "mode", close: "close", bold: "bold", text: "text", disabled: "disabled" }, ngImport: i0, template: "<div class=\"ngx-alert-container\" [style.border]=\"'1px solid ' + color\" [style.color]=\"color\"\n  [style.fontWeight]=\"bold  ? 'bold' : '100'\" [style.opacity]=\"disabled  ? '0.75' : '1'\"\n  [style.cursor]=\"disabled  ? 'not-allowed' : 'pointer'\">\n  <div class=\"ngx-alert-text\">\n    {{ text }}\n  </div>\n  <div class=\"ngx-alert-close\" [style.background-color]=\"color\" [style.color]=\"'white'\">\n    <span class=\"closeIcon\" [hidden]=\"!close\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 384 512\">\n        <path fill=\"white\"\n          d=\"M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z\" />\n      </svg>\n    </span>\n  </div>\n</div>\n", styles: [".ngx-alert-container{display:grid;align-items:center;grid-template-columns:auto 56px;margin-bottom:.5rem}.ngx-alert-container .ngx-alert-text{font-weight:500;font-size:1rem;padding:1rem 1.25rem}.ngx-alert-container .ngx-alert-close{width:56px;height:100%;display:flex;align-items:center;justify-content:center}.ngx-alert-container-extended .ngx-alert-text{color:#fff}\n"] }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: JustAlertComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: JustAlertComponent, decorators: [{
             type: Component,
-            args: [{ selector: 'ngx-just-alert', standalone: true, template: "<div class=\"just-container\" [style.border]=\"'1px solid ' + mode\" [style.color]=\"mode\"\n  [style.fontWeight]=\"bold === 'true' ? 'bold' : '100'\" [style.opacity]=\"disabled === 'true' ? '0.75' : '1'\"\n  [style.cursor]=\"disabled === 'true' ? 'not-allowed' : 'pointer'\">\n  <div class=\"just-content\">\n    {{ text }}\n  </div>\n  <div class=\"just-close\" [style.backgroundColor]=\"mode\" [style.color]=\"'white'\">\n    <span>&#215;</span>\n  </div>\n</div>", styles: [".just-close{width:6%;font-weight:bolder;text-align:center;background-color:#dc143c;color:#fff;border-radius:0;padding:0;display:grid;align-items:center}.just-content{width:95%;padding:.6125rem .8125rem;color:#000;font-weight:bolder}.just-container{display:flex;border-radius:1;border:1px solid crimson;margin:.625rem 0rem;color:#fff;font-weight:400;box-shadow:0 0 5px 5px #f5f5f5}\n"] }]
+            args: [{ selector: 'ngx-just-alert', standalone: true, template: "<div class=\"ngx-alert-container\" [style.border]=\"'1px solid ' + color\" [style.color]=\"color\"\n  [style.fontWeight]=\"bold  ? 'bold' : '100'\" [style.opacity]=\"disabled  ? '0.75' : '1'\"\n  [style.cursor]=\"disabled  ? 'not-allowed' : 'pointer'\">\n  <div class=\"ngx-alert-text\">\n    {{ text }}\n  </div>\n  <div class=\"ngx-alert-close\" [style.background-color]=\"color\" [style.color]=\"'white'\">\n    <span class=\"closeIcon\" [hidden]=\"!close\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 384 512\">\n        <path fill=\"white\"\n          d=\"M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z\" />\n      </svg>\n    </span>\n  </div>\n</div>\n", styles: [".ngx-alert-container{display:grid;align-items:center;grid-template-columns:auto 56px;margin-bottom:.5rem}.ngx-alert-container .ngx-alert-text{font-weight:500;font-size:1rem;padding:1rem 1.25rem}.ngx-alert-container .ngx-alert-close{width:56px;height:100%;display:flex;align-items:center;justify-content:center}.ngx-alert-container-extended .ngx-alert-text{color:#fff}\n"] }]
         }], propDecorators: { mode: [{
                 type: Input
             }], close: [{

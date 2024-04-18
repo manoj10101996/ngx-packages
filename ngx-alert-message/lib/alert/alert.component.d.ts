@@ -4,10 +4,10 @@ type mode = "primary" | "success" | "danger" | "info" | "warning";
 export declare class AlertComponent implements OnInit {
     textColor: string;
     mode: mode;
-    close: any;
-    bold: any;
+    close: boolean;
+    bold: boolean;
     text: any;
-    disabled: any;
+    disabled: boolean;
     color: string;
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<AlertComponent, never>;
