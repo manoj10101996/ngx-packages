@@ -33,10 +33,10 @@ export class NgxSlightScrollDirective {
             }
         });
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxSlightScrollDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive }); }
-    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "17.0.8", type: NgxSlightScrollDirective, isStandalone: true, selector: "[ngxSlimScroll]", inputs: { maxHeight: "maxHeight", minHeight: "minHeight", scrollBg: "scrollBg", scrollThumbBg: "scrollThumbBg", scrollThumbRadius: "scrollThumbRadius", scrollWidth: "scrollWidth", scrollBorder: "scrollBorder" }, outputs: { scrollEndEvent: "scrollEndEvent" }, ngImport: i0 }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxSlightScrollDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive }); }
+    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "17.3.5", type: NgxSlightScrollDirective, isStandalone: true, selector: "[ngxSlimScroll]", inputs: { maxHeight: "maxHeight", minHeight: "minHeight", scrollBg: "scrollBg", scrollThumbBg: "scrollThumbBg", scrollThumbRadius: "scrollThumbRadius", scrollWidth: "scrollWidth", scrollBorder: "scrollBorder" }, outputs: { scrollEndEvent: "scrollEndEvent" }, ngImport: i0 }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxSlightScrollDirective, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxSlightScrollDirective, decorators: [{
             type: Directive,
             args: [{
                     selector: "[ngxSlimScroll]",

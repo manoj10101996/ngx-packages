@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import * as i0 from "@angular/core";
 export class NgxDefaultImageComponent {
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxDefaultImageComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.8", type: NgxDefaultImageComponent, isStandalone: true, selector: "lib-ngx-default-image", ngImport: i0, template: `
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxDefaultImageComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.3.5", type: NgxDefaultImageComponent, isStandalone: true, selector: "lib-ngx-default-image", ngImport: i0, template: `
     <p>
       ngx-default-image works!
     </p>
   `, isInline: true }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxDefaultImageComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxDefaultImageComponent, decorators: [{
             type: Component,
             args: [{ selector: 'lib-ngx-default-image', template: `
     <p>

@@ -9,12 +9,13 @@ export declare class NgxTagsComponent {
     tags: any[];
     rounded: boolean;
     disabled: boolean;
+    distinct: boolean;
     color: string;
     constructor();
     ngOnInit(): void;
     add(e: any): void;
     remove(i: number): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxTagsComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgxTagsComponent, "ngx-tags-input", never, { "limit": { "alias": "limit"; "required": false; }; "mode": { "alias": "mode"; "required": false; }; "placeholder": { "alias": "placeholder"; "required": false; }; "tags": { "alias": "tags"; "required": false; }; "rounded": { "alias": "rounded"; "required": false; }; "disabled": { "alias": "disabled"; "required": false; }; }, {}, never, never, true, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxTagsComponent, "ngx-tags-input", never, { "limit": { "alias": "limit"; "required": false; }; "mode": { "alias": "mode"; "required": false; }; "placeholder": { "alias": "placeholder"; "required": false; }; "tags": { "alias": "tags"; "required": false; }; "rounded": { "alias": "rounded"; "required": false; }; "disabled": { "alias": "disabled"; "required": false; }; "distinct": { "alias": "distinct"; "required": false; }; }, {}, never, never, true, never>;
 }
 export {};

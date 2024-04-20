@@ -79,10 +79,10 @@ export class NgxDefaultImageDirective {
     calculateAspectRatio(width, height) {
         return width / height;
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxDefaultImageDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive }); }
-    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "17.0.8", type: NgxDefaultImageDirective, isStandalone: true, selector: "[NgxDefaultImage]", inputs: { imageURL: "imageURL" }, outputs: { imageMetaInfo: "imageMetaInfo" }, ngImport: i0 }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxDefaultImageDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive }); }
+    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "17.3.5", type: NgxDefaultImageDirective, isStandalone: true, selector: "[NgxDefaultImage]", inputs: { imageURL: "imageURL" }, outputs: { imageMetaInfo: "imageMetaInfo" }, ngImport: i0 }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.8", ngImport: i0, type: NgxDefaultImageDirective, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxDefaultImageDirective, decorators: [{
             type: Directive,
             args: [{
                     selector: '[NgxDefaultImage]',
