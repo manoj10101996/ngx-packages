@@ -1,12 +1,17 @@
 import { NgxColorConverterService } from 'ngx-color-converter';
-import { AfterViewInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, EventEmitter } from '@angular/core';
+import { COLOROBJECT } from '../public-api';
 import * as i0 from "@angular/core";
 export declare class NgxPrimeColorPickerComponent implements AfterViewInit {
+    private cdref;
+    getCurrentColorObject: EventEmitter<any>;
     showConversionTable: boolean;
     showSaturation: boolean;
     showLightness: boolean;
     showColorPalette: boolean;
     showGradient: boolean;
+    color: string;
+    isFreshColor: boolean;
     gradintPickerId: string;
     position: {
         offsetX: number;
@@ -23,11 +28,10 @@ export declare class NgxPrimeColorPickerComponent implements AfterViewInit {
     };
     canvas: HTMLCanvasElement;
     context: CanvasRenderingContext2D;
-    color: string;
     pointer: HTMLDivElement;
     protected colors: NgxColorConverterService;
-    objectColors: any;
-    constructor();
+    objectColors: COLOROBJECT;
+    constructor(cdref: ChangeDetectorRef);
     ngAfterViewInit(): void;
     colorObject(): void;
     bufferToHex(buffer: Uint8ClampedArray): string;
@@ -40,5 +44,5 @@ export declare class NgxPrimeColorPickerComponent implements AfterViewInit {
         b: number;
     };
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxPrimeColorPickerComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgxPrimeColorPickerComponent, "ngx-prime-color-picker", never, { "showConversionTable": { "alias": "showConversionTable"; "required": false; }; "showSaturation": { "alias": "showSaturation"; "required": false; }; "showLightness": { "alias": "showLightness"; "required": false; }; "showColorPalette": { "alias": "showColorPalette"; "required": false; }; "showGradient": { "alias": "showGradient"; "required": false; }; }, {}, never, never, true, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxPrimeColorPickerComponent, "ngx-prime-color-picker", never, { "showConversionTable": { "alias": "showConversionTable"; "required": false; }; "showSaturation": { "alias": "showSaturation"; "required": false; }; "showLightness": { "alias": "showLightness"; "required": false; }; "showColorPalette": { "alias": "showColorPalette"; "required": false; }; "showGradient": { "alias": "showGradient"; "required": false; }; "color": { "alias": "color"; "required": false; }; }, { "getCurrentColorObject": "getCurrentColorObject"; }, never, never, true, never>;
 }
