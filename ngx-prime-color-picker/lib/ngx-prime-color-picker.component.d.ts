@@ -11,6 +11,7 @@ export declare class NgxPrimeColorPickerComponent implements AfterViewInit {
     showColorPalette: boolean;
     showGradient: boolean;
     color: string;
+    isFocused: boolean;
     isFreshColor: boolean;
     gradintPickerId: string;
     position: {
