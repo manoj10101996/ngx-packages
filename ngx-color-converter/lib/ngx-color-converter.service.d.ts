@@ -1,3 +1,4 @@
+import { COLOROBJECT } from '../public-api';
 import * as i0 from "@angular/core";
 export declare class NgxColorConverterService {
     values: string;
@@ -71,25 +72,9 @@ export declare class NgxColorConverterService {
     lighter: (n: any) => void;
     darker: (n: any) => void;
     attachValues: (color: any) => void;
-    toColorObject(color: any): any;
-    colorObject(rgb: any, a: any, h: any, s: any): any;
-    emptyObject(): {
-        red: number;
-        green: number;
-        blue: number;
-        hue: number;
-        sat: number;
-        lightness: number;
-        whiteness: number;
-        blackness: number;
-        cyan: number;
-        magenta: number;
-        yellow: number;
-        black: number;
-        ncol: string;
-        opacity: number;
-        valid: boolean;
-    };
+    toColorObject(color: any): COLOROBJECT;
+    colorObject(rgb: any, a: any, h: any, s: any): COLOROBJECT;
+    emptyObject(): COLOROBJECT;
     getColorArr(x: any): string[];
     roundDecimals(c: any): any;
     hslToRgb(hue: any, sat: any, light: any): {
