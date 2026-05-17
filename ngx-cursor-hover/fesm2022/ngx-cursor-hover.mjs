@@ -1,5 +1,5 @@
 import * as i0 from '@angular/core';
-import { Directive, Input } from '@angular/core';
+import { Input, Directive } from '@angular/core';
 
 class NgxCursorHoverDirective {
     constructor(el) {
@@ -10,10 +10,10 @@ class NgxCursorHoverDirective {
     ngAfterViewInit() {
         this.element.classList.add("ngx-cursor-hover-" + this.cursor);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxCursorHoverDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive }); }
-    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "17.3.5", type: NgxCursorHoverDirective, isStandalone: true, selector: "[ngxCursor]", inputs: { cursor: "cursor" }, ngImport: i0 }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "21.2.13", ngImport: i0, type: NgxCursorHoverDirective, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Directive }); }
+    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "21.2.13", type: NgxCursorHoverDirective, isStandalone: true, selector: "[ngxCursor]", inputs: { cursor: "cursor" }, ngImport: i0 }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.5", ngImport: i0, type: NgxCursorHoverDirective, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "21.2.13", ngImport: i0, type: NgxCursorHoverDirective, decorators: [{
             type: Directive,
             args: [{
                     selector: "[ngxCursor]",

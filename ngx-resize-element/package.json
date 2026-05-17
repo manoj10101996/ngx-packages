@@ -1,9 +1,9 @@
 {
   "name": "ngx-resize-element",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "peerDependencies": {
-    "@angular/common": "^17.3.12",
-    "@angular/core": "^17.3.12"
+    "@angular/common": "^21.2.13",
+    "@angular/core": "^21.2.13"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -35,16 +35,15 @@
   ],
   "license": "MIT",
   "module": "fesm2022/ngx-resize-element.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/ngx-resize-element.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
-      "esm2022": "./esm2022/ngx-resize-element.mjs",
-      "esm": "./esm2022/ngx-resize-element.mjs",
+      "types": "./types/ngx-resize-element.d.ts",
       "default": "./fesm2022/ngx-resize-element.mjs"
     }
-  }
+  },
+  "type": "module"
 }

@@ -1,14 +1,14 @@
 {
   "name": "ngx-alert-message",
-  "version": "4.0.10",
+  "version": "4.0.12",
   "author": {
     "name": "Manojkumar Muthukumar",
     "email": "manoj1010196@gmail.com"
   },
   "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
   "peerDependencies": {
-    "@angular/common": "^17.3.12",
-    "@angular/core": "^17.3.12"
+    "@angular/common": "^21.2.13",
+    "@angular/core": "^21.2.13"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -45,16 +45,15 @@
   ],
   "sideEffects": false,
   "module": "fesm2022/ngx-alert-message.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/ngx-alert-message.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
-      "esm2022": "./esm2022/ngx-alert-message.mjs",
-      "esm": "./esm2022/ngx-alert-message.mjs",
+      "types": "./types/ngx-alert-message.d.ts",
       "default": "./fesm2022/ngx-alert-message.mjs"
     }
-  }
+  },
+  "type": "module"
 }

@@ -1,8 +1,0 @@
-/*
- * Public API Surface of ngx-alert-message
- */
-export * from './lib/ngx-alert-message.service';
-export * from './lib/ngx-alert-message.component';
-export * from './lib/alert/alert.component';
-export * from './lib/just-alert/just-alert.component';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1hbGVydC1tZXNzYWdlL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxpQ0FBaUMsQ0FBQztBQUNoRCxjQUFjLG1DQUFtQyxDQUFDO0FBRWxELGNBQWMsNkJBQTZCLENBQUM7QUFDNUMsY0FBYyx1Q0FBdUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LWFsZXJ0LW1lc3NhZ2VcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtYWxlcnQtbWVzc2FnZS5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1hbGVydC1tZXNzYWdlLmNvbXBvbmVudCc7XG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2FsZXJ0L2FsZXJ0LmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9qdXN0LWFsZXJ0L2p1c3QtYWxlcnQuY29tcG9uZW50JztcbiJdfQ==
